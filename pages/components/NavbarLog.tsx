@@ -2,24 +2,20 @@ import React from 'react';
 
 function NavbarLog() {
   return (
-    <header>
-      <a className='buttonLogo' 
-        href=""><img  
-        src={require('../img/atom_logo.png')} 
-        alt='Logo'
-        width="250px" />
-      </a>
+    <div>
       <nav>
-        <ul className='logbar'>
-          <a className='buttonLogin' 
-            href=''><li>Iniciar Sesión</li>
-          </a>
-          <a className='buttonLogout' 
-            href=''><li>Registrarse</li>
-          </a>
+        <a className='buttonLogo' 
+          href="#">
+          <img src={require('../img/atom_logo.png')} 
+          alt='Logo'
+          width="250px" />
+        </a>
+        <ul>
+          <button type="button" className="btn btn-primary btn-lg">Iniciar seción</button>
+          <button type="button" className="btn btn-secondary btn-lg">Registrarse</button>
         </ul>
       </nav>
-    </header>
+    </div>
   );
 }
 
