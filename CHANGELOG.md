@@ -15,7 +15,11 @@ a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Released]
 
-## [0.0.1] - 2022-12-05
+## [0.0.1] - 2023-04-30
 ### [add]
 * [main] () - Se crea proyecto.
+
+## [0.0.2] - 2023-06-09
+### [add]
+* [main] () - Se agrega archivos a la api para la modificacion de la BD y layouts basicos
 
