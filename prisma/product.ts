@@ -55,7 +55,7 @@ export const getAllProducts = async() => {
 }
 
 // Asi es otra forma pero no logre que funcionara por el tipo de dato export const deleteProduct = async(id:string | string[] | undefined) 
-export const deleteProduct = async(id:any) => {
+export const deleteProduct = async(id:string) => {
 
     const products = await prisma.juegos.delete({
         where: {
