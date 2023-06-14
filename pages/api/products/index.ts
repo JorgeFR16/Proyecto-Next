@@ -34,7 +34,8 @@ export default async function handler(
 
             case 'DELETE': {
 
-                const { id } = req.query
+                // la parte de as { id: string } es para darle un tipo a req.query algo asi como decirle que va a lucir de la siguiente manera
+                const { id } = req.query as { id: string }
 
                 // el id lo va a buscar a esta direccion /Api/products?id=54654
 
