@@ -1,7 +1,12 @@
 import { useDeleteProduct } from "@/hooks/useDeleteProduct";
 import { info_juego } from "@/interfaces";
 
-const Juego = ({ product }: any) => {
+interface Props {
+  product: info_juego;
+  key: string;
+}
+
+const Juego = ({ product }: Props) => {
 
     const deleteProduct = useDeleteProduct('/api/products');
 
