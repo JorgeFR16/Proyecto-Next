@@ -1,6 +1,6 @@
 import { useAddProduct } from "@/hooks/useAddProduct";
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { FormEvent, useState } from "react";
 
 const AddProduct = () => {
 
@@ -16,7 +16,7 @@ const AddProduct = () => {
   const [disponibilidad, setDisponibilidad] = useState("");
   const [imagen, setImagen] = useState("");
 
-  const handleSubmit = async (e:any) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     const nuevoJuego = {
