@@ -21,5 +21,5 @@ a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [0.0.2] - 2023-06-09
 ### [add]
-* [main] () - Se agrega archivos a la api para la modificacion de la BD y layouts basicos
+* [main] () - Se agrega archivos a la api para la modificacion de la BD y layouts basicos.
 
